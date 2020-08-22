@@ -179,7 +179,7 @@ func main() {
 		{
 			Name: "jpg",
 			Usage: `relit des jpg et les sauve non entrelacés dans le répertoire output
-		NixPlayJpgTools.exe jpg --resize idem mais pour des jpg ou jpeg, le fichier de sortie sera en .jpg
+		NixPlayJpgTools.exe jpg --resize va convertir des images jpg en jpg non entrelacés et les retailler si besoin, le fichier de sortie sera en .jpg
 		NixPlayJpgTools.exe --portrait jpg --resize va faire comme ci-dessus mais va utiliser une taille 720x1280`,
 			Flags: []cli.Flag{
 				&cli.BoolFlag{

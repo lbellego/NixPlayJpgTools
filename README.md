@@ -6,7 +6,7 @@ USAGE: NixPlayJpgTools.exe [global options] command [command options] [arguments
 VERSION: 1.0.0
 
 COMMANDS: jpg relit des jpg et les sauve non entrelacés dans le répertoire output 
-* **NixPlayJpgTools.exe jpg --resize** va convertir des images png en jpg et les retailler si besoin, le fichier de sortie sera en .jpg 
+* **NixPlayJpgTools.exe jpg --resize** va convertir des images jpg en jpg non entrelacés et les retailler si besoin, le fichier de sortie sera en .jpg 
 * **NixPlayJpgTools.exe --portrait jpg --resize** va faire comme ci-dessus mais va utiliser une taille 720x1280 png convertit un png en jpg et l'écrit dans le répertoire output 
 * **NixPlayJpgTools.exe png --resize** va convertir des images png en jpg et les retailler si besoin 
 * **NixPlayJpgTools.exe --portrait png --resize** va faire comme ci-dessus mais va utiliser une taille 720x1280 help, h Shows a list of commands or help for one command
